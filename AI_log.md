@@ -33,3 +33,27 @@ I created 4 easy tests in test_fsm.py for your FSM demo:
 
 **Decisión** 
 Despúes de ver que la IA introdujo correctamente los conceptos que hemos visto como "assert" para las pruebas y las declaraciones de las funciones, realicé pruebas y usé las 4 pruebas que me dio la IA, todas pasaron. 
+
+
+## entrada 3 (actividad miercoles)
+
+**Promt:** genera ejemplos de los principios SOLID, s, o y l, toma como erferencia el fragmento de código en el archivo, escribe 1 de la forma correcta y 1 forma incorrecta de cada principio. 
+
+
+**Respuesta de IA**
+Devolvió ejemplos muy claros sobre los principios de Responsabilidad única, principio de abierto/cerrado y el principio de sustitución de Liskov. 
+
+
+**Decisión**
+Dejé todos los ejemplos ya que ilustra muy bien las buenas prácticas de cómo sí declarar funciones siguiendo los principios SOLID, y dejé 1 ejemplo de cómo no hacerlo. 
+
+## Entrada 4 (actividad miercoles)
+
+**Promt:**
+ahora genera los test para pytest de cada función en el archivo actual
+
+
+La IA asignó 6 pruebas para las funciones creadas para los principios S ,O, L de SOLID. 
+
+**Decisión**
+copilot free escribió las los test en el archivo test_solid_srp_ocp_lsp.py y al al correr las pruebas, todas pasaron.
