@@ -24,7 +24,7 @@ class Reading:
 class Transport(Protocol):
     def send(self, payload: bytes) -> None: ...
 
-
+#FUNCIÓN PURA FACIL DE TESTEAR
 def to_frame(r: Reading) -> bytes:
     return f"{r.sensor_id}:{r.value:.2f}".encode()
 
